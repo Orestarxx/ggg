@@ -1,0 +1,61 @@
+.father{
+    display: flex;
+    align-items: center;
+    margin-top:100px;
+    justify-content: space-evenly;
+
+}
+.target1{
+    width: 150px;
+    height:350px ;
+
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:30px;
+    border: 1px solid black;
+}
+.fa-star {
+    font-size: 30px;
+    color: antiquewhite;
+}
+h3{
+    color: darkred;
+}
+
+button{
+    border: black 2px solid;
+    border-radius:5px;
+    width:70px;
+    height:30px;
+    background: darkred;
+    margin-top: 50px;
+
+
+
+}
+button>a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.target1>div>a {
+    width: 70px;
+    height: 30px;
+    background: blueviolet;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    vertical-align: center;
+    margin-top: 50px;
+    border: black 2px solid;
+    border-radius:5px;
+    box-sizing: border-box;
+    padding-top: 3px;
+}
+.target1>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

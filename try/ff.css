@@ -1,0 +1,16 @@
+html{
+
+   color: #68136b;
+}
+.cover{
+    width: 60%;
+    height: 300px;
+    background:blue;
+    margin: auto;
+}
+
+@media screen and (min-width:900px){
+    body{
+        color: #68136b;
+    }
+}

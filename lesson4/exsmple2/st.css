@@ -1,0 +1,58 @@
+.wrap{
+    width: 100%;
+    min-height: 600px;
+
+    margin: auto;
+}
+.a{
+    width: 100%;
+    height: 200px;
+    background:silver;
+}
+.father{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.zero{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.c{
+    width: 25%;
+    height: 400px;
+    background:gray;
+}
+.one{
+    width: 100%;
+    height: 200px;
+    background:slategrey;
+}
+.two{
+    width: 30%;
+    height: 200px;
+    background:dodgerblue;
+
+
+}
+@media screen and (max-width: 1200px){
+    .father{
+        flex-direction: column;
+        height: 800px;
+
+    }
+}
+@media screen and (max-width: 1200px){
+    .zero{
+        width: 100%;
+        height: 400px;
+    }
+    .c {
+        width: 100%;
+
+    }
+
+}
